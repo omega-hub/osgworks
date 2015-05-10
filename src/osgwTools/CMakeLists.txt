@@ -19,7 +19,7 @@ set( LIB_PUBLIC_HEADERS
     ${HEADER_PATH}/CountsVisitor.h
     ${HEADER_PATH}/DataLoader.h
     ${HEADER_PATH}/DecimationTestModel.h
-    ${HEADER_PATH}/FBOUtils.h
+    #${HEADER_PATH}/FBOUtils.h
     ${HEADER_PATH}/FindNamedNode.h
     ${HEADER_PATH}/ForceFlattenTransforms.h
     ${HEADER_PATH}/GeometryModifier.h
@@ -59,7 +59,7 @@ set( _osgwToolsSourceFiles
     Capabilities.cpp
     CollapseLOD.cpp
     CountsVisitor.cpp
-    FBOUtils.cpp
+    #FBOUtils.cpp
     FindNamedNode.cpp
     ForceFlattenTransforms.cpp
     GeometryModifier.cpp
